@@ -29,3 +29,10 @@ Sistemlerin birbiriyle güvenli ve kararlı çalışabilmesi için uygulanan net
     │   └── İnsan Kaynakları (HR)
     ├── Kullanicilar (Kullanıcı Hesapları)
     └── Bilgisayarlar (Domain'e Bağlı Clientlar)
+
+
+##GPO KURALLARI
+1. Şifre Politikası: Tüm kullanıcılar için minimum karakter uzunluğu, karmaşıklık (büyük/küçük harf, rakam) zorunluluğu ve şifre geçmişi kuralları aktif edilmiştir.
+2. Control Panel Restriction: Belirlenen departmanlar dışındaki kullanıcıların bilgisayarlarda Denetim Masası (Control Panel) ve Ayarlar sayfasına erişimi kısıtlanmıştır.
+3. Interactive Logon Banner: Kullanıcılar bilgisayarlarını açtığında karşılarına kurumsal yasal uyarı metni çıkacak şekilde konfigüre edilmiştir.
+4.Automatic Screen Lock: Belirli bir süre boyunca işlem yapılmayan client bilgisayarların otomatik olarak kilitlenmesi sağlanmıştır.
